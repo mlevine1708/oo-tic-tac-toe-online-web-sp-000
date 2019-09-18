@@ -5,6 +5,7 @@ attr_accessor :board
 def initialize
   @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
+end
 
 WIN_COMBINATIONS = [
   [0,1,2],
